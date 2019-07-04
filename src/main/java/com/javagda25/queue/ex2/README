@@ -1,0 +1,17 @@
+Stworzymy aplikację kontrolującą kolejność pobierania elementów z obiektu. Spróbujemy zrealizować zadanie
+reprezentujące kolejkę na poczcie lub w pewnej poczekalni.
+
+Stwórz klasę Klient, która posiada:
+- imie klienta (wyłącznie dla celów prezentacji - żeby później łatwiej nam było czytać poprawność wyników)
+- czas przybycia
+- czy jest priorytetem (tak lub nie)
+
+Stwórz klasę Poczekalnia, która jako pola posiada:
+- KOLEJKĘ PRIORYTETOWĄ klientów
+
+Do klasy poczekalnia dodaj metody:
+- dodajKlienta(String imie, boolean czyPriorytet):void - która dodaje klienta o podanym imieniu z informacją czy
+jest priorytetyzowany.
+- pobierzKlienta():Klient - która zwraca następnego w kolejce klienta
+- wypiszKolejnoscKlientów():void - metoda która wyciąga z kolejki klientów dopóki w kolejce są jacyś klienci. Wraz
+'wyciąganiem' klientów wypisuj ich informacje na ekran.
