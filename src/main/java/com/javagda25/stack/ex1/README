@@ -1,0 +1,19 @@
+Stwórz aplikację wykorzystującą stos:
+
+Stwórz klasę "Naleśnik", klasa powinna mieć:
+private List<String> listaSkladnikow;
+private LocalDateTime czasStworzenia;
+
+Stwórz klasę Naleśnikarnia. Powinna jako pole mieć stos Naleśników.
+Klasa powinna mieć metody:
+
+public void stworzNalesnika(List<String> skladniki);
+public Nalesnik pobierzNalesnikaZKupy();
+
+
+1. Pierwsza metoda tworzy nalesnika i dodaje go na stos.
+2. Druga metoda zdejmuje naleśnika ze stosu (jeśli jest).
+Jeśli nie ma nalesniora rzuca exception.
+Jeśli jest zwraca tego ze szczytu.
+
+Dodatkowo zrób nowy wątek, aby pracownicy (w naleśnikarni) co jakiś czas tworzyli sami naleśniki.
