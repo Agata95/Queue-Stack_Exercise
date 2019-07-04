@@ -12,6 +12,6 @@ Stwórz klasę Poczekalnia, która jako pola posiada:
 Do klasy poczekalnia dodaj metody:
 - dodajKlienta(String imie, boolean czyPriorytet):void - która dodaje klienta o podanym imieniu z informacją czy
 jest priorytetyzowany.
-- pobierzKlienta():Klient - która zwraca następnego w kolejce klienta
+- pobierzKlienta():Klient - która zwraca następnego w kolejce klienta (pobiera z kolejki kolejna osobe)
 - wypiszKolejnoscKlientów():void - metoda która wyciąga z kolejki klientów dopóki w kolejce są jacyś klienci. Wraz
 'wyciąganiem' klientów wypisuj ich informacje na ekran.
